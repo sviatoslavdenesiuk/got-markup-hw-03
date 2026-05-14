@@ -1,0 +1,30 @@
+.footer {
+    background: var(--navy-blue);
+    height: 312px;
+
+}
+
+.footer-conteiner {
+    padding-top: 100px;
+}
+
+.part-footer-logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+}
+
+.footer-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+    width: 264px;
+    padding-top: 16px;
+}

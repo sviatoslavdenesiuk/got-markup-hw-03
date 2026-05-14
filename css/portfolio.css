@@ -1,0 +1,51 @@
+.portfolio-container {
+    height: 1240px;
+}
+
+.portfolio {
+    padding-bottom: 72px;
+    padding-top: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+
+}
+
+.portfolio-item {
+    height: 420px;
+    width: 360px;
+
+}
+
+.portfolio-title {
+    text-transform: capitalize;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+}
+
+.portdolio-info-item {
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
+    padding: 32px 16px;
+    width: 360px;
+    height: 120px;
+}
+
+.portfolio-sub {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
