@@ -84,11 +84,32 @@ body {
 /* #region header */
 .page-header {
     background-color: #fff;
-    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
+
 .header-container {
     display: flex;
     align-items: center;
+}
+
+.main-logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    margin-right: 76px;
+}
+
+.main-logo:hover,
+.main-logo:focus {
+    color: var(--ocean);
+}
+
+.part-logo {
+    color: var(--navy-blue);
 }
 
 .navigation-header {
@@ -96,74 +117,49 @@ body {
     align-items: center;
 }
 
-.main-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-}
-
 .nav-list-header {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding-right: 332px;
-}
-
-.main-logo:hover,
-.main-logo:focus {
-    color: #404bbf;
-}
-
-.part-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
 }
 
 .studio-nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--navy-blue);
 }
 
 .studio-nav-link:hover,
 .studio-nav-link:focus {
-    color: #404bbf;
+    color: var(--ocean);
 }
-.contact-information {
-  color: #434455;
 
-}
-.contact-information:hover,
-.contact-information:focus {
-   color: #404bbf;
-}
 .contacts {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-list {
-    font-family: var(--font-family);
-    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-information {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-left: auto;
+}
+
+.contact-information:hover,
+.contact-information:focus {
+    color: var(--ocean);
 }
 
 /* #endregion header */
