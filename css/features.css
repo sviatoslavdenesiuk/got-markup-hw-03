@@ -1,11 +1,11 @@
 .hero {
-    height: 344px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .hero-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0;
 }
 
 .hero-title {
